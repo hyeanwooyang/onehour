@@ -8,6 +8,8 @@ PFont dialFont;
 void setup(){
   //Set window size and title
   surface.setTitle("One Hour 1.0.0");
+  PImage icon = loadImage("icon.png");
+  surface.setIcon(icon);
   size(512, 512);
  
   //Create fonts
